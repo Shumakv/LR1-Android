@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="ЗАРЕЗЕРВУВАТИ"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Виберіть дату"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/spinner_people_count"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinner_name_hotel"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/cityResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="enterOll"
+        android:text="Підтвердити" />
+
+    <TextView
+        android:id="@+id/hotelResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/countPeopleResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="TextView" />
+
+</LinearLayout>
